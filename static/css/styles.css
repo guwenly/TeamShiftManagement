@@ -1,0 +1,37 @@
+/* Custom styles */
+.team-card {
+    @apply bg-white rounded-lg p-4 shadow-md;
+}
+
+.team-name {
+    @apply text-red-500 font-bold text-xl mb-2;
+}
+
+.member-list {
+    @apply list-none p-0;
+}
+
+.member-item {
+    @apply bg-gray-100 rounded p-2 mb-2 shadow-sm flex justify-between items-center;
+}
+
+.remove-member, .edit-team, .delete-team {
+    @apply bg-red-500 text-white py-1 px-2 rounded text-sm hover:bg-red-600 transition duration-300;
+}
+
+.btn-primary {
+    @apply bg-red-500 text-white py-2 px-4 rounded font-bold transition duration-300 ease-in-out;
+}
+
+.btn-primary:hover {
+    @apply bg-red-600;
+}
+
+/* Sortable styles */
+.sortable-ghost {
+    @apply opacity-50 bg-gray-300;
+}
+
+.sortable-drag {
+    @apply shadow-lg;
+}
