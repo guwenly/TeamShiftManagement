@@ -4,4 +4,5 @@ This is the TeamShiftManager project. This project is created for rotating shift
 For install:
 
 npm install
+
 python main.py
